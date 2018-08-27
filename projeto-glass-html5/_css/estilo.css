@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+<style>
+
+    p {
+      text-align: justify;
+      text-indent: 30px;
+    }
+    body {
+      background-color: rgba(218, 218, 218, 1);
+    }
+
+    /* Formatação de imagens com legenda */
+    figure.fotos-com-legenda {
+      position: relative;
+      border: 8px solid rgba(250, 250, 250, 1);
+      width: 600px;
+      height: 400px;
+      box-shadow: 1px 1px 10px black;
+    }
+    figure.fotos-com-legenda img {
+      width: 100%;
+      height: 100%;
+    }
+    figure.fotos-com-legenda figcaption {
+      opacity: 0;
+      position: absolute;
+      top: 0px;
+      background-color: rgba(159, 159, 159, 0.5);
+      width: 100%;
+      height: 100%;
+      color: white;
+      font-weight: 900;
+      text-shadow: 1px 1px 10px grey;
+      text-align: justify;
+      text-indent: 10px;
+    }
+    figure.fotos-com-legenda:hover figcaption {
+      opacity: 1;
+      transition: opacity 0.8s;
+    }
+
+
+</style>
