@@ -41,16 +41,41 @@
     }
 
     /*Formatação do Menu Principal*/
+    nav#menu-principla {
+      display: block;
+    }
+
     nav#menu-principal ul {
       text-transform: uppercase;
+      position: absolute;
+      top: -20px;
+      right: 100px;
     }
 
     nav#menu-principal li {
       display: inline-block;
       background-color: #dddddd;
+      transition: background-color 0.7s;
       font-size: 13px;
       padding: 5px;
       margin: 2px;
+    }
+
+    nav#menu-principal li:hover {
+      background-color: #606060;
+    }
+
+    nav#menu-principal h1 {
+      display: none;
+    }
+
+    nav#menu-principal a {
+      color: black;
+      transition: color 0.0s;
+      text-decoration: none;
+    }
+    nav#menu-principal a:hover {
+      color: rgba(255, 254, 254, 1);
     }
 
 
