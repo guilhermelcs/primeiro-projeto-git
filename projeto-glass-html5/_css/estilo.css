@@ -40,5 +40,19 @@
       transition: opacity 0.8s;
     }
 
+    /*Formatação do Menu Principal*/
+    nav#menu-principal ul {
+      text-transform: uppercase;
+    }
+
+    nav#menu-principal li {
+      display: inline-block;
+      background-color: #dddddd;
+      font-size: 13px;
+      padding: 5px;
+      margin: 2px;
+    }
+
+
 
 </style>
